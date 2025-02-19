@@ -4,5 +4,4 @@ from django.http import HttpResponse
 # Create your views here.
 
 def cadastrar(request):
-  return HttpResponse('hello word')
-  
+    return HttpResponse('olá')
